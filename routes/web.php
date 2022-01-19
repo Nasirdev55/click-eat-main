@@ -40,7 +40,7 @@ Route::get('/test/123', function (Request $r) {
     return $r->path();
 });
 
-
+//commited
 
 Auth::routes();
 
