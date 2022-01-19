@@ -3,12 +3,14 @@
 
 namespace App\Http\Middleware;
 use Closure;
+use Illuminate\Support\Facades\Auth;
 
 
 class AuthCheck
 {
     public function handle($request, Closure $next)
     {
+
         if($request->path() == 'login' || $request->path() == 'register' || $request->path() == 'restaurant/login' ) {
             if(auth()->guard('admin')->check()) {
                 return redirect('/admin/dashboard');
