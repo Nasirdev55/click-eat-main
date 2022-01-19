@@ -23,6 +23,9 @@
      <li class="nav-item px-4">
         <a class="nav-link text-white" href="{{url('/contact-us')}}">Contact Us <div class="link5 center mt-1  "></div></a>
       </li>
+     <li class="nav-item px-4">
+        <a class="nav-link text-white" href="{{url('/login')}}">Login/Register <div class="center mt-1"></div></a>
+      </li>
     </ul>
   
   </div>
