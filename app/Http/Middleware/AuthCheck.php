@@ -13,9 +13,9 @@ class AuthCheck
             if(auth()->guard('admin')->check()) {
                 return redirect('/admin/dashboard');
             }
-            if(auth()->guard('restaurant')->check()) {
-                return redirect('/restaurant/dashboard');
-            }
+            // if(auth()->guard('restaurant')->check()) {
+            //     return redirect('/restaurant/dashboard');
+            // }
             if(auth()->check()) {
                 return redirect('/home');
             }
