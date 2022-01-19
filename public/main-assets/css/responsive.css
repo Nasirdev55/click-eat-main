@@ -1,0 +1,198 @@
+@media (max-width:992px){
+
+
+            
+.intro .image{
+    height: auto;width: auto;
+}
+
+.mans .card1 button{
+    height: auto;width: auto;
+}
+
+.story .solutions{
+    padding-left: 0px !important;padding-right: 0px;
+}
+.story .solutions p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+}
+
+.boss .card .card-title b{
+    font: normal normal 600 18px/24px Segoe UI;
+letter-spacing: 0.36px;
+color: #000000;
+opacity: 1;
+padding-left: 10px;padding-right: 10px; 
+}
+
+.story .mac{
+    height: auto;width: auto;
+}
+
+        
+}
+
+@media (max-width: 1024px){
+   .container-custom{
+    padding-right: 25px;padding-left: 25px;
+  }
+  .cafe .story .img{
+    width: auto;height: auto;
+}
+  .pick .image{
+    width: auto;
+}
+.pick .text{
+    position: absolute;
+    bottom: 7px;
+    left: 30px;
+    right: 0px;
+    z-index: 2;
+}
+.goals .card .card-title {
+    padding-right: 10px;padding-left: 10px;
+}
+.cafe .story .well{
+    padding-left: 10px !important;padding-right: 10px;
+}
+.cards .card p{
+    padding-left: 10px;padding-right: 10px;
+}
+
+.cards .card .man{
+    padding-right: 10px;padding-left: 10px;
+}
+.pack .story .what-do p{
+    padding-left: 0px;padding-right: 0px;
+}
+
+.goals .story .solutions{
+    padding-left: 10px !important;padding-right: 10px;
+}
+
+.story .well{
+    padding-left: 0px !important;padding-right: 0px;
+
+}
+.pack .story .image{
+    width: auto;height: auto;
+}
+
+.boss .card .top-img{
+    height: auto;width: auto;
+}
+
+.book .story .well{
+    padding-left: 10px !important;padding-right: 10px;
+}
+.book .story .well p{
+    font: normal normal 600 35px/60px Segoe UI;
+letter-spacing: 0.9px;
+color: #000000;
+opacity: 1;
+}
+}
+
+@media (max-width: 768px){
+   .intro p{
+
+font: normal normal normal 16px/30px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+
+}
+
+
+.story .person p{
+    font: normal normal 600 13px/32px Segoe UI;
+letter-spacing: 0.48px;
+font-weight: 700;
+color: #000000;
+opacity
+}
+
+.story .general p{
+    font: normal normal 600 13px/33px Segoe UI;
+letter-spacing: 0.5px;
+color: #000000;
+opacity: 1
+}
+
+
+.mans .m-card{
+    margin-top: 25px;
+}
+
+
+.pick .text b{
+    font: normal normal 600 15px/32px Segoe UI;
+letter-spacing: 0.48px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+z-index: 3 ;
+}
+.services .well p{
+    font: normal normal normal 18px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: white;
+opacity: 1;
+}
+
+.services .well{
+    padding-left: 0px !important;padding-right: 0px;
+}
+
+.pick .cal1{
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width:600px){
+  .form .card input{
+    border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 8px;
+
+
+}
+.book .story .well p{
+    font: normal normal 600 30px/60px Segoe UI;
+letter-spacing: 0.9px;
+color: #000000;
+opacity: 1;
+}
+.form .card textarea{
+    border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 8px;
+
+
+}
+    
+}
+@media (max-width:300px){
+   
+    
+}
+
+@media (max-width: 280px){
+   .story .person p{
+    font: normal normal 600 12px/32px Segoe UI;
+letter-spacing: 0.48px;
+font-weight: 700;
+color: #000000;
+opacity
+}
+
+.story .general p{
+    font: normal normal 600 12px/33px Segoe UI;
+letter-spacing: 0.5px;
+color: #000000;
+opacity: 1
+}
+}

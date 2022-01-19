@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.page-wrapper{display: flex;}
+.page-sidebar{min-width: 250px;background: #FFFFFF 0% 0% no-repeat padding-box;display: block;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;min-height: 100vh;}
+.page-wrapper .page-sidebar .logo {display: flex;justify-content: center;align-items: center;height:64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;}
+.page{width: 100%;}
+.page-wrapper .page-content{background-color: #F6F9FF;width: 100%;min-height:100vh;padding-bottom: 2rem;}
+.page-wrapper .page-content .main-content{background-color: #FFFFFF;margin:20px}
+.page-topbar{height: 64px;display: flex;justify-content: center;align-items: center;height:64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;}
+.page-wrapper .page-sidebar .logo h3{font: normal normal bold 24px/33px 'Open Sans';color:#6c63ff;
+}
+.page-wrapper .page .page-topbar .search-field{width: 591px;
+    height: 38px;display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BEBEBE;
+    border-radius: 15px;
+    opacity: 1;}
+    .link-div{height: 38px;display: flex;align-items: center;position: relative;}
+    .active-link2{background-color: #868e965c;color: white;}
+    .active-link{background-color: #007bff;color: white;}
+    .active-link a{color: white!important;}
+    .link-div a{color: black;text-decoration: none;}
+    .link-div i{min-width: 20px;}
+    .collapse .link-div b.link{margin-left: 36px!important;}
+    .link{height: 17px;
+        text-align: left;
+        font: normal normal 600 12px/17px 'Open Sans';margin-left: 1rem!important;}
+        input,select:focus{outline: none;}
+        .res-bars{display: none;}
+        
+    .page-wrapper .page .page-topbar .ti-search{display: block;}
+    .page-wrapper .page-sidebar .close{display: none;}
+    #lang-img{width: 40px;
+        height: 25px;}
+        table tr th,td{text-align: center;vertical-align: middle!important;}
+        .fa-bars{cursor: pointer;}
+        .close{cursor: pointer;}
+        .upload-img{width: 109px;
+            height: 109px;background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #9E9E9E;
+opacity: 1;border-radius: 50%;display: flex;justify-content: center;align-items: center;position:absolute}
+.card-shadow{background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;}
+    .bg-active{background-color: #BDBDBD;}

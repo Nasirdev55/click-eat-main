@@ -1,0 +1,617 @@
+/*header and footer css*/
+.click h5{
+    color: orange;
+}
+
+.navbar-expand-lg button{
+    background-color: white;
+}
+
+.main-menu h4{
+    font: normal normal 600 20px/24px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+}
+.main-menu p{
+    text-align: left;
+font: normal normal normal 14px/10px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+}
+.main-menu a{
+    text-align: left;
+font: normal normal normal 14px/10px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+text-decoration: none;
+}
+
+.active-link{
+    background-color: white;height: 1px;width: 70%;
+}
+
+.main-footer h4{
+   font: normal normal bold 16px/19px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.main-footer p{
+    text-align: left;
+font: normal normal normal 14px/10px Segoe UI;
+letter-spacing: 0px;
+color: white;
+}
+.main-footer a{
+    text-decoration: none;
+}
+.main-footer .input-field input{
+   
+background: #313131 0% 0% no-repeat padding-box;
+}
+
+.main-footer  .icon-right {
+width: 35px;height: 34px;
+background: #EF4B23 0% 0% no-repeat padding-box;
+display: flex;
+align-items: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*about us  css*/
+
+.blog-img{
+    background-image:  url('../img/images/Capture2.PNG');
+    width:100%;
+    height: 350px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.story .well{
+    padding-left: 230px !important;padding-right: 230px;
+}
+.story .well p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+}
+.intro .image{
+    height: 511px;width: 411px;
+}
+.intro .image img{
+    height: 100%;width: 100%;
+}
+.intro p{
+
+font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+
+}
+
+.star .main{
+    height: 85px;width: 85px;
+}
+.star .main img{
+    height: 100%;width: 100%;
+}
+
+.star b{
+    font-style: normal;
+font-weight: bold;
+font-size: 35px;
+
+}
+.star p{
+    font: normal normal normal 12px/19px Segoe UI;
+letter-spacing: 0px;
+color: #2B2B30;
+opacity: 1;
+}
+.star i{
+    font-size: 55px;
+}
+
+/*services css*/
+
+.services .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.services .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+
+.services .well{
+    padding-left: 110px !important;padding-right: 110px;
+}
+.services .well p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: white;
+opacity: 1;
+}
+
+.container-custom{
+    padding-right: 96px;padding-left: 96px;
+}
+.pick .image{
+    height: 349px;width: 354px;
+    position: relative;
+}
+.pick .image .layer{
+    position: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;
+    z-index: 2;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 165.5%)
+}
+.pick .image img{
+    height: 100%;width: 100%;   
+}
+
+.pick .text{
+    position: absolute;
+    bottom: 7px;
+    left: 100px;
+    right: 0px;
+    z-index: 2;
+}
+.pick .text b{
+font: normal normal 600 24px/32px Segoe UI;
+letter-spacing: 0.48px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+z-index: 3 ;
+}
+.pick .text .btn{
+    border: 1px solid var(--unnamed-color-ffffff);
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+opacity: 1;
+
+
+}
+
+/*packages css*/
+
+.blog-img{
+    background-image:  url('../img/images/Capture2.PNG');
+    width:100%;
+    height: 350px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.story .well{
+    padding-left: 230px !important;padding-right: 230px;
+}
+.story .well p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+}
+.mans .card1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 20px;
+opacity: 1;
+}
+.mans .card1 b{
+    font: normal normal 600 26px/35px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mans .card1 .dolar p{
+    font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #EF4B23;
+opacity: 1;
+
+
+}
+.mans .card1 .dolar b{
+    font: normal normal normal 52px/69px Segoe UI;
+letter-spacing: 0px;
+color: #EF4B23;
+opacity: 1;
+}
+.mans .card1 .dolar small{
+    margin-top: 40px;
+    font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mans .card1 .dot{
+    height: 8px;width: 8px;
+    border-radius: 50%;
+    background: #000000 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.mans .card1 .list p{
+    font: normal normal normal 15px/21px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+opacity: 0.8;
+}
+.mans .card1 button{
+    background: #EF4B23 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+width: 132px;height: 44px;
+color: white;
+}
+.mans .card1:hover{
+   
+   background: #26282C 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 6px #00000029;
+border-radius: 20px;
+opacity: 1;
+}
+.mans .card1:hover b{
+    color: #FFFFFF;
+opacity: 1;
+}
+.mans .card1:hover .dolar p{
+    font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #7CD0CC;
+opacity: 1;
+
+
+}
+.mans .card1:hover .dolar b{
+    font: normal normal normal 52px/69px Segoe UI;
+letter-spacing: 0px;
+color: #7CD0CC;
+opacity: 1;
+}
+.mans .card1:hover .dolar small{
+    margin-top: 40px;
+    font: normal normal normal 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.mans .card1:hover .dot{
+    height: 8px;width: 8px;
+    border-radius: 50%;
+   background: #EF4B23 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.mans .card1:hover .list p{
+    font: normal normal normal 13px/21px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.mans .card1:hover button{
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+width: 132px;height: 44px;
+font: normal normal 600 18px/40px Segoe UI;
+letter-spacing: 0.36px;
+color: #EF4B23;
+opacity: 1
+}
+/*contact us css*/
+
+.contact-img{
+    background-image:  url('../img/images/contact.PNG');
+    width:100%;
+    height: 100px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.story .well{
+    padding-left: 350px !important;padding-right: 350px;
+}
+.story .well p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+}
+
+.form .card input{
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2E2E2;
+opacity: 1;
+
+height: 50px;
+}
+.form .card textarea{
+    border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 8px;
+
+height: 200px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2E2E2;
+opacity: 1;
+}
+
+.story .person p{
+   font: normal normal normal 16px/28px Segoe UI;
+letter-spacing: 0.48px;
+font-weight: 700;
+color: #000000;
+opacity
+}
+
+.story .general p{
+   font: normal normal normal 20px/36px Segoe UI;
+letter-spacing: 0.5px;
+color: #000000;
+opacity: 1;
+font-weight: 500;
+}
+
+/*home css*/
+
+.story .solutions{
+    padding-left: 280px !important;padding-right: 280px;
+}
+.story .solutions p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+font-weight: 500;
+}
+
+.cards .card{
+    position: relative;
+    border-radius: 15px;
+}
+.cards .card .icons{
+    background-color: #1973cb;
+    height: 100px;
+    width: 100px;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 7px;
+    position: absolute;
+    top: 0;
+    align-items: center;
+    display: flex;
+}
+.cards .card .icons img{
+    height: 50px;width: 50px;
+}
+
+.cards .card b{
+    font: normal normal 600 26px/35px Segoe UI;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.cards .card p{
+    padding-right: 70px;padding-left: 70px;
+}
+.cards .card .man{
+    padding-right: 80px;padding-left: 80px;
+}
+.cards .card button{
+    width: 150px;height: 50px;background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 25px;
+opacity: 1;
+font: normal normal 600 18px/24px Segoe UI;
+letter-spacing: 0px;
+color: #EF4B23;
+opacity: 1;
+}
+
+.pack .story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase; 
+padding-left: 200px;padding-right: 200px; 
+}
+.pack .story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.pack .story .image{
+    width: 826px;height: 428px;
+}
+.pack .story .image img{
+    height: 100%;width: 100%;
+}
+
+.boss .card .top-img{
+    height: 350px;width: 350px;
+}
+.boss .card .top-img img{
+    height: 100%;width: 100%;border-radius: 80px;padding: 20px;
+}
+.boss .card .card-title b{
+    font: normal normal 700 18px/24px Segoe UI;
+letter-spacing: 0.36px;
+color: #000000;
+opacity: 1;
+padding-left: 50px;padding-right: 50px; 
+}
+
+.story .mac{
+    height: 488px;width: 755px;
+}
+.story .mac img{
+    height: 100%;width: 100%;
+}
+
+.goals .story .solutions{
+    padding-left: 200px !important;padding-right: 200px;
+}
+.goals .story .solutions p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+font-weight: 500;
+}
+.goals .card{
+    background-color: #F5F7FA;
+}
+
+.goals .card .card-title {
+    padding-right: 85px;padding-left: 85px;
+}
+
+.cafe .story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.cafe .story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.cafe .story .well{
+    padding-left: 230px !important;padding-right: 230px;
+}
+.cafe .story .well p{
+    font: normal normal normal 22px/30px Segoe UI;
+letter-spacing: 0.44px;
+color: #000000;
+opacity: 1;
+font-weight: 500;
+}
+.cafe .story .img{
+    width: 842px;height: 456px;position: relative;display: flex;align-items: center;
+}
+.cafe .story .img img{
+    height: 100%;width: 100%;
+}
+
+.cafe .story .img .layer{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cafe .story .img .play-btn{
+   
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background: #EF4B23 0% 0% no-repeat padding-box;
+    position: absolute;
+    z-index: 1;
+}
+.cafe .story .img .play-btn .fa{
+    font-size: 50px;
+    color: white;
+        margin-left: 44px;
+    margin-top: 34px;
+}
+
+.book .story .what-do p{
+    font: normal normal normal 30px/36px Segoe UI;
+letter-spacing: 2.4px;
+color: #EF4B23;
+text-transform: uppercase;  
+}
+.book .story .what-do .line{
+    background-color: #EF4B23;
+    height: 0px;
+    width: 80px;
+    border: 0.5px solid #EF4B23;
+}
+.book .story .well{
+    padding-left: 150px !important;padding-right: 150px;
+}
+.book .story .well p{
+    font: normal normal 600 45px/60px Segoe UI;
+letter-spacing: 0.9px;
+color: #000000;
+opacity: 1;
+}
+
+
+.book .story .card input{
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2E2E2;
+opacity: 1;
+
+height: 50px;
+}
+.book .story .card textarea{
+    border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 8px;
+
+height: 200px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E2E2E2;
+opacity: 1;
+}
